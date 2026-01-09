@@ -110,7 +110,11 @@ export function Hero({ className }: { className?: string }) {
             lg:w-auto
           `}
         >
-          <DownloadButton className="w-full sm:w-auto" />
+          <DownloadButton className={`
+            w-full
+            sm:w-auto
+          `}
+          />
           <Button
             variant="secondary"
             asChild
